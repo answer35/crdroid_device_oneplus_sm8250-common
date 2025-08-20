@@ -111,7 +111,7 @@ PRODUCT_COPY_FILES += \
 
 
 $(call soong_config_set,camera,override_format_from_reserved,true)
-
+$(call soong_config_set,camera,package_name,com.oplus.packageName)
 
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)

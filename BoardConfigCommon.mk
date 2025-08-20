@@ -51,7 +51,7 @@ BOARD_USES_ALSA_AUDIO := true
 TARGET_BOOTLOADER_BOARD_NAME := kona
 
 # Camera
-TARGET_CAMERA_PACKAGE_NAME := com.oplus.packageName
+# TARGET_CAMERA_PACKAGE_NAME := com.oplus.packageName
 
 # Display
 TARGET_GRALLOC_HANDLE_HAS_RESERVED_SIZE := true
